@@ -1,0 +1,13 @@
+# --- DATABASE ---
+*.sqlite
+*.db
+*.zip
+dataset/dataset_stephen.csv
+dataset/nft_transfers_jun_aug_labeled.csv
+dataset/nft_transfers_jun_aug_ready.csv
+dataset/nft_transfers_jun_aug.csv
+
+# --- PYTHON & ML ---
+venv/
+.venv/
+__pycache__/
