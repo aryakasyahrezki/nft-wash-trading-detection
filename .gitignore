@@ -1,5 +1,4 @@
 # --- DATABASE ---
-*.sqlite
 *.db
 *.zip
 dataset/dataset_stephen.csv
@@ -11,3 +10,13 @@ dataset/nft_transfers_jun_aug.csv
 venv/
 .venv/
 __pycache__/
+
+data/
+outputs/
+*.csv
+*.pkl
+*.sqlite
+*.db
+__pycache__/
+.ipynb_checkpoints/
+.venv/
