@@ -1,0 +1,25 @@
+# Data files
+/data/*.npz
+/data/*.csv
+/data/*.db
+/data/*.sqlite
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model outputs
+*.pt
+*.pth
+
+# Results (large prediction files)
+results/preds_*.npz
+
+# OS files
+.DS_Store
+Thumbs.db
