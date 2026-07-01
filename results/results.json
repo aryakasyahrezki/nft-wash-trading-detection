@@ -1,0 +1,123 @@
+{
+  "plain_bce": {
+    "experiment": "Plain BCE",
+    "epochs": 15,
+    "test_at_0.5": {
+      "threshold": 0.5,
+      "precision": 0.8826,
+      "recall": 0.6113,
+      "f1": 0.7223,
+      "roc_auc": 0.93,
+      "pr_auc": 0.7063
+    },
+    "test_at_tuned": {
+      "threshold": 0.3,
+      "precision": 0.8635,
+      "recall": 0.6409,
+      "f1": 0.7358,
+      "roc_auc": 0.93,
+      "pr_auc": 0.7063
+    },
+    "val_tuned_f1": 0.6819,
+    "train_minutes": 66.3
+  },
+  "weighted_bce": {
+    "experiment": "Weighted BCE",
+    "epochs": 15,
+    "test_at_0.5": {
+      "threshold": 0.5,
+      "precision": 0.2765,
+      "recall": 0.7726,
+      "f1": 0.4073,
+      "roc_auc": 0.9133,
+      "pr_auc": 0.6059
+    },
+    "test_at_tuned": {
+      "threshold": 0.9,
+      "precision": 0.7038,
+      "recall": 0.6568,
+      "f1": 0.6795,
+      "roc_auc": 0.9133,
+      "pr_auc": 0.6059
+    },
+    "val_tuned_f1": 0.4873,
+    "train_minutes": 66.8
+  },
+  "class_balanced": {
+    "experiment": "Class Balanced",
+    "epochs": 15,
+    "test_at_0.5": {
+      "threshold": 0.5,
+      "precision": 0.8736,
+      "recall": 0.6382,
+      "f1": 0.7376,
+      "roc_auc": 0.9281,
+      "pr_auc": 0.7049
+    },
+    "test_at_tuned": {
+      "threshold": 0.25,
+      "precision": 0.7942,
+      "recall": 0.6568,
+      "f1": 0.719,
+      "roc_auc": 0.9281,
+      "pr_auc": 0.7049
+    },
+    "val_tuned_f1": 0.7093,
+    "train_minutes": 66.7
+  },
+  "focal_loss": {
+    "experiment": "Focal Loss",
+    "epochs": 15,
+    "test_at_0.5": {
+      "threshold": 0.5,
+      "precision": 0.9138,
+      "recall": 0.3432,
+      "f1": 0.499,
+      "roc_auc": 0.927,
+      "pr_auc": 0.6569
+    },
+    "test_at_tuned": {
+      "threshold": 0.3,
+      "precision": 0.7176,
+      "recall": 0.6726,
+      "f1": 0.6944,
+      "roc_auc": 0.927,
+      "pr_auc": 0.6569
+    },
+    "val_tuned_f1": 0.5134,
+    "train_minutes": 67.5
+  },
+  "asymmetric_loss": {
+    "experiment": "Asymmetric Loss",
+    "epochs": 15,
+    "test_at_0.5": {
+      "threshold": 0.5,
+      "precision": 0.7854,
+      "recall": 0.6733,
+      "f1": 0.725,
+      "roc_auc": 0.9221,
+      "pr_auc": 0.6882
+    },
+    "test_at_tuned": {
+      "threshold": 0.55,
+      "precision": 0.8262,
+      "recall": 0.6554,
+      "f1": 0.731,
+      "roc_auc": 0.9221,
+      "pr_auc": 0.6882
+    },
+    "val_tuned_f1": 0.6876,
+    "train_minutes": 68.1
+  },
+  "_config": {
+    "memory_dim": 100,
+    "time_dim": 100,
+    "batch_size": 256,
+    "lr": 0.001,
+    "epochs": 15,
+    "focal_alpha": 0.75,
+    "focal_gamma": 2.0,
+    "cb_beta": 0.9999,
+    "total_minutes": 335.9
+  }
+}
