@@ -4,7 +4,7 @@ Code for the paper:
 **"Detecting NFT Wash Trading with Temporal Graph Networks: A Comparison of Class Imbalance Handling Strategies"**
 
 Aryaka Syahrezki, Stephen Christopher, Andry Chowanda, Franz Adeta Junior  
-Binus University, 2025
+Binus University, 2026
 
 ## Overview
 
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 If you use this code, please cite our paper:
 
-@inproceedings{syahrezki2025nft,
+@inproceedings{syahrezki2026nft,
 title={Detecting NFT Wash Trading with Temporal Graph Networks:
 A Comparison of Class Imbalance Handling Strategies},
 author={Syahrezki, Aryaka and Christopher, Stephen and
